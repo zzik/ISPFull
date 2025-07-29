@@ -15,8 +15,8 @@ const Hero = () => {
           </p>
           <button
             onClick={() => {}}
-            id="hero-button"
-            className=" fw3 rounded orange-bg white-txt poppins "
+            // id="hero-button"
+            className="button fw3 rounded orange-bg white-txt poppins "
           >
             Calculate your savings
           </button>

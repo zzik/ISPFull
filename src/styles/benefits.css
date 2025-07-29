@@ -1,0 +1,12 @@
+.benefits {
+    h1 {
+        margin-top: 3rem;
+        font-size: 55px;
+    }
+    .subtitle {
+        font-size: 27px;
+    }
+    .column-title {
+        font-size: 22px;
+    }
+}

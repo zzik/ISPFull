@@ -1,6 +1,7 @@
 @import url('styles/hero.css');
 @import url('styles/header.css');
 @import url('styles/solutions.css');
+@import url('styles/benefits.css');
 
 * {
   box-sizing: border-box;
@@ -76,7 +77,24 @@
 .fw9 {
   font-weight: 900;
 }
+.button {
+  width: 237px;
+    font-size: 16px;
+    text-align: left;
+    padding: 16px 0px 16px 20px;
+}
 
+.center-text {
+  text-align: center;
+}
+
+.lillac-txt {
+  color: #831b45;
+}
+
+.blue-txt {
+  color: #1c314e;
+}
 /* 
 body {
   font-family: var(--font);
@@ -159,3 +177,74 @@ a {
   color: var(--light-gray);
 } 
 */ 
+
+
+
+.benefits-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 24px 0px;
+}
+
+.benefit-column-left, .benefit-column-right {
+  position: relative;
+  top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 220px;
+}
+
+.benefit-item h3 {
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+.benefit-image img {
+  width: 385px;
+  max-width: 90vw;
+}
+
+.calculator-section {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.calculator-box {
+  background: #fcdede;
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 900px;
+  width: 100%;
+}
+
+.calculator-content {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.form, .result {
+  flex: 1;
+  min-width: 280px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.button-group {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
