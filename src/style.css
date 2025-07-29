@@ -1,22 +1,83 @@
-:root {
-  --primary: #f15a29;
-  --primary-hover: #f25c39;
-  --accent: #ff7eb9;
-  --white: #ffffff;
-  --light-gray: #f4f4f4;
-  --muted-red: #e6473b;
-  --dark: #0e0d17;
-  --darker: #131121;
-  --font: 'Poppins', sans-serif;
-}
+@import url('styles/hero.css');
+@import url('styles/header.css');
+@import url('styles/solutions.css');
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
 }
 
+:root {
+  --orange: #e6512a;
+  --orange2: #d04928;
+  --purple1: #030115;
+  --purple2: #831b45;
+}
+.white-txt {
+  color: #fff;
+}
+.white-bg {
+  background-color: #fff;
+}
+.gray-txt {
+  color: #777;
+}
+.black-txt {
+  color: #000;
+}
+.black-bg {
+  background-color: #000;
+}
+.orange-txt {
+  color: #d04928;
+}
+.orange-bg {
+  background-color: #e6512a;
+}
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+.dosis {
+  font-family: 'Dosis', sans-serif;
+}
+.rounded {
+  border: none;
+  border-radius: 8px 0px 8px 8px;
+  -webkit-border-radius: 8px 0px 8px 8px;
+  -moz-border-radius: 8px 0px 8px 8px;
+  -ms-border-radius: 8px 0px 8px 8px;
+  -o-border-radius: 8px 0px 8px 8px;
+}
+.fw1 {
+  font-weight: 100;
+}
+.fw2 {
+  font-weight: 200;
+}
+.fw3 {
+  font-weight: 300;
+}
+.fw4 {
+  font-weight: 400;
+}
+.fw5 {
+  font-weight: 500;
+}
+.fw6 {
+  font-weight: 600;
+}
+.fw7 {
+  font-weight: 700;
+}
+.fw8 {
+  font-weight: 800;
+}
+.fw9 {
+  font-weight: 900;
+}
+
+/* 
 body {
   font-family: var(--font);
   background-color: var(--dark);
@@ -97,4 +158,4 @@ a {
   font-size: 0.9rem;
   color: var(--light-gray);
 } 
-*/
+*/ 
