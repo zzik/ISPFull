@@ -1,7 +1,7 @@
 .hero {
     border-bottom: 1px solid black;
 
-    background-image: url('img/hero.png');
+    background-image: url('img/hero.png'), url('hero.png');
     background-size: cover;
     background-size: contain;
     background-repeat: no-repeat;
